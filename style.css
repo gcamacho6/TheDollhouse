@@ -1,0 +1,443 @@
+body::-webkit-scrollbar {
+        display: none;
+    }
+
+    hr {
+        border: none;
+        height: 3px; /* Set the thickness of the line */
+        background-color: #ffffff; /* Set the color of the line */
+        padding:0%;
+        margin: 0%;
+    }
+#hr2{
+border: none;
+        height: 4px; /* Set the thickness of the line */
+        background-color: #8f6c5b; /* Set the color of the line */
+        padding:0%;
+        margin: 0%;
+}
+
+#whynot{
+    background-image: url(img/starsky.gif);
+}
+
+/*---------NAV BAR---------*/
+.navbar{   
+display: flex;
+align-items: center;
+padding: 0px;
+margin: 0px;
+background-color: #8f6c5b;
+}
+
+.navbars{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbarrms{
+display: flex;
+padding: 0px;
+margin: 0px;
+background-color: #5b5c8f;
+}
+
+.nav{
+    flex:1;
+    text-align: right;
+    }
+
+.nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+
+
+/*-------------------------*/
+
+
+
+/*------------------Video Top sec----------------*/
+.imgcontainer{
+    display: grid;
+    grid-row: 1;
+background-color: #8f6c5b;
+}
+
+#videostart{
+        background-image: url(img/banner.gif);
+        background-size: cover;
+}
+/*-----------------------------------------------*/
+
+
+
+/*------------CONTAINERS-------------------------*/
+
+.containerone{
+    padding: 0px;
+}
+
+.container2{
+    display: inline-block;
+}
+
+.container2outside{
+    display:flex;
+    
+}
+
+.con2background{
+    display:flex;
+    background-image: url(img/con2background.gif);
+    height: 650px;
+    
+}
+
+.footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(219, 182, 201);
+  text-align: center;
+}
+
+#deskfigure{
+    display: inline-block;
+    position:absolute;
+    top: 72.7%;
+    left: 0.10%;
+}
+
+#desk:hover{
+   transition: 0.7s;
+    opacity: 83%;
+}
+
+
+#couch:hover{
+   transition: 0.7s;
+    opacity: 85%;
+
+}
+
+#deskfigures{
+    display: inline-block;
+    position:absolute;
+    top: 72.7%;
+    left: 47.6%;
+}
+
+
+
+/*-----------------------------------------------*/
+
+
+
+
+/*------------------TEXT----------------*/
+p{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    
+}
+
+#intro{
+    text-align: center;
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
+
+#question{
+    font-family: "dolly-small-caps-new", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    color: #c1848b;
+    text-shadow: 2px 2px 4px #ffffffb9;
+
+
+}
+
+h1{
+    font-family: "parfumerie-script", Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding:2%;
+    margin: 3%;
+    color: whitesmoke;
+    height: 20px; 
+    position: absolute;
+    bottom: 91.3%;
+}
+
+h2{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    opacity: 95%;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+    font-size: 70px;
+    
+}
+
+h3{
+        font-family: "parfumerie-script", Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding:2%;
+    margin: 3%;
+    color: whitesmoke;
+    height: 20px; 
+    position: absolute;
+    bottom: 91.3%;
+}
+
+h4{
+    font-family: "parfumerie-script", Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    padding:2%;
+    margin: 3%;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px 4px #906c6ceb;
+    
+}
+
+h5{
+    font-family: "parfumerie-script", Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding:2%;
+    margin: 3%;
+    color: whitesmoke;
+    height: 10px; 
+    position: absolute;
+    bottom: 91.3%;
+
+}
+
+
+
+
+#hometext{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+        text-shadow: 2px 2px 4px #906c6ceb;
+
+
+}
+
+#hometext:hover{
+    color: #dc98c2;
+    transition: 0.5s;
+}
+
+
+
+#abouttext{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+#abouttext:hover{
+    color: #dc98c2;
+    transition: 0.5s;
+}
+
+#dollhouselink{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+      text-decoration: none;
+    
+}
+
+#dollhouselink:hover{
+    color: #dc98c2;
+    transition: 0.5s;
+}
+/*--------------------------------------*/
+
+
+/*------------------IMG----------------*/
+
+#videostart{
+    align-items: center;
+}
+/*-------------------------------------*/
+
+
+
+/*------------------BTN----------------*/
+.btn{
+    display: inline-block;
+    border: 2px solid #FD6022;
+    padding: 8px 30px;
+    margin: 30px 0px;
+
+    position: relative;
+}
+
+/*--------------------------------------*/
+
+#dollhouseback{
+    background-image: url(img/background-web-dollhouse.png);
+}
+
+#houseface{
+    position: absolute;
+    top: 0.2%;
+    right: 0.7%;
+}
+
+.roomone{
+    display: block;
+    background-color: red;
+    position: absolute;
+}
+
+.roomtwo{
+    display: block;
+    background-color: red;
+    position: absolute;
+
+}   
+
+.roomthree{
+    display: block;    
+    background-color: red;
+    position: absolute;
+
+}
+
+
+/*-----About container----------*/
+#aboutpage{
+    background-image: url(img/pokadot\ background.webp);
+}
+
+.around{
+    padding: 4%;
+}
+
+/*-----------doll house rooms--------*/
+
+#moverm1{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+
+    #moverm1:hover{
+        transition: 0.7s;
+        opacity: 83%;
+    }
+
+#moverm2{
+    position: absolute;
+    top: 124%;
+    left: 5%;
+}
+
+    #moverm2:hover{
+        transition: 0.7s;
+        opacity: 83%;
+    }
+
+
+#moverm3{
+    position: absolute;
+    top: 184%;
+    left: 4%;
+
+}
+    #moverm3:hover{
+        transition: 0.7s;
+        opacity: 83%;
+        }
+
+/*----------------ROOMS---------------------*/
+
+#rm1background{
+    background-image: url(img/starsky.gif);
+}
+
+#rm2background{
+    background-image: url(img/starsky.gif);
+}
+
+#rm3background{
+    background-image: url(img/starsky.gif);
+}
+
+#dollrm1{
+    position: absolute;
+    bottom: 20%;
+    left:8%;
+}
+
+#dollrm2{
+    position: absolute;
+    bottom: 20%;
+    left:8%;
+}
+
+#dollrm3{
+    position: absolute;
+    bottom: 20%;
+    left:8%;
+}
+
+.textbox{
+    display: flex;
+    position: absolute;
+    Top: 70%;
+    padding: 5%;
+    margin: 5%;
+    line-height: 60px;
+    opacity: 78%;
+    text-align: center;
+}
+
+.textbox p{
+    font-family: "dolly-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #906c6ceb;
+}
